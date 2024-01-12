@@ -34,9 +34,9 @@ const Home = () => (
         <Photo size = 'full'/>
     <div className="links">
         <StyledLink to="/about">About</StyledLink>
-        <StyledLink to="/resume">Resume</StyledLink>
-        <StyledLink target="_blank" to="https://github.com/JonathanKoerber">GitHub</StyledLink>
-        <StyledLink target="_blank" to="https://www.linkedin.com/in/jonathan-koerber/">LinkedIn</StyledLink>
+        <StyledLink to="/team">Team</StyledLink>
+        <StyledLink to="/speakers">Speakers</StyledLink>
+        <StyledLink target="_blank" to="https://github.com/STC-Data-Science-Club">GitHub</StyledLink>
       </div>
       </header>
 </Wrapper>

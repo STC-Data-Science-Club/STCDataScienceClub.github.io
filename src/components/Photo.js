@@ -32,9 +32,12 @@ const Photo = (props) => {
     if(props.size == 'aside') {
         return (
         <Wrapper>
-            <ImageSmall src={image} />*
+            <ImageSmall src={image} />
             <Text>
-                STC Data Science Club
+                STC
+            </Text>
+            <Text>
+                Data Science Club
             </Text>
         </Wrapper>
         );
