@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import headshot from "../images/headshot.svg";
-import logo from "../images/logo.png";
+import image from "../images/ws7Q0-removebg-preview.png";
+
 
 const Wrapper = styled.div`
     display: block;
@@ -26,27 +26,15 @@ const ImageSmall = styled.img`
     height: 10vmin;
     pointer-events: none;
 `;
-const Logo = styled.img`
-    height: 3vmin;
-    pointer-events: none;
-    animation: App-logo-spin infinite 20s linear;
-    @keyframes App-logo-spin {
-        from {
-          transform: rotate(0deg);
-        }
-        to {
-          transform: rotate(360deg);
-        }
-      }
-`;
+
 
 const Photo = (props) => {
     if(props.size == 'aside') {
         return (
         <Wrapper>
-            <ImageSmall src={headshot} />
+            <ImageSmall src={image} />*
             <Text>
-                Jonathan Koerber
+                STC Data Science Club
             </Text>
         </Wrapper>
         );
@@ -55,9 +43,9 @@ const Photo = (props) => {
     if(props.size === 'full') {
         return (
         <Wrapper>
-            <Image src={headshot} />
+            <Image src={image} />
             <Text>
-                <Logo src={logo}/>Jonathan Koerber <code>README.md</code>
+                STC Data Science Club <code>README.md</code>
             </Text>
         </Wrapper>
 );
