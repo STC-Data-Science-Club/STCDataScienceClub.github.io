@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/STCDataScienceClub.github.io/static/css/main.ae2738dc.css",
-    "main.js": "/STCDataScienceClub.github.io/static/js/main.e237339e.js",
-    "static/media/ws7Q0-removebg-preview.png": "/STCDataScienceClub.github.io/static/media/ws7Q0-removebg-preview.3b6e1365651db78c3590.png",
-    "index.html": "/STCDataScienceClub.github.io/index.html",
-    "main.ae2738dc.css.map": "/STCDataScienceClub.github.io/static/css/main.ae2738dc.css.map",
-    "main.e237339e.js.map": "/STCDataScienceClub.github.io/static/js/main.e237339e.js.map"
+    "main.css": "/static/css/main.ae2738dc.css",
+    "main.js": "/static/js/main.ea64a780.js",
+    "static/media/ws7Q0-removebg-preview.png": "/static/media/ws7Q0-removebg-preview.3b6e1365651db78c3590.png",
+    "index.html": "/index.html",
+    "main.ae2738dc.css.map": "/static/css/main.ae2738dc.css.map",
+    "main.ea64a780.js.map": "/static/js/main.ea64a780.js.map"
   },
   "entrypoints": [
     "static/css/main.ae2738dc.css",
-    "static/js/main.e237339e.js"
+    "static/js/main.ea64a780.js"
   ]
 }
