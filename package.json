@@ -1,6 +1,6 @@
 {
   "name": "STC Data Sciecne Club Page",
-  "homepage": "https://stc-data-science-club.github.io/",
+  "homepage": "STCDataScienceClub.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
