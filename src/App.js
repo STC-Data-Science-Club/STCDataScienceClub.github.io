@@ -17,7 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<div><NavAside/><About/><rightColum/></div>} />
             <Route path="/team" element={<div><NavAside/><Team/></div>}/>
-            <Route path="/events" element={<div><NavAside/><Event/></div>}/>
+            <Route path="/events" element={<div><NavAside/><Events/></div>}/>
         </Routes>
       </div>
     </HashRouter>
