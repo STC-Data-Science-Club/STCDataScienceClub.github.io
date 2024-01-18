@@ -35,7 +35,7 @@ const Home = () => (
         <StyledLink to="/about">About</StyledLink>
         <StyledLink to="/team">Team</StyledLink>
         <StyledLink to="/speakers">Speakers</StyledLink>
-        <StyledLink target="_blank" to="https://github.com/STC-Data-Science-Club">GitHub</StyledLink>
+        <StyledLink target="_blank" to="https://github.com/STCDataScienceClub">GitHub</StyledLink>
       </div>
       </header>
 </Wrapper>
