@@ -6,33 +6,12 @@ import ReactMarkdown from "react-markdown";
 import NavAside from "../components/NavAside";
 
 const aboutText = `### Hi there 👋
+Welcome to the STC Data Science Club!!
 
+The STC Data Science Club is more than just a club; it's a community of individuals passionate about exploring the vast landscape of data science. We look forward to meeting you, sharing knowledge, and creating memorable experiences together. Come join us as we outline our vision, discuss upcoming events, and most importantly, hear from you! We value your input and believe that every member plays a crucial role in shaping the future of our club. Bring your ideas, questions, and enthusiasm – let's make this a collaborative and engaging experience for everyone.
 
-
-Has generative AI replaced us all? Not yet. While we've made significant strides with Large Language Models (LLMs), these powerful resources haven't replaced humans' unique insights and capabilities. Our comparative lack of computational capacity is, in fact, our greatest strength. As technology floods us with vast amounts of data, it's people like me who can distill meaning from the noise.
-
-I'm an MSCS student at City University of Seattle, specializing in computer science and driven by the pursuit of a deep understanding of CS concepts. My journey as a teaching assistant in the School of Technology and Computing at City University of Seattle has been transformative. Here, I connect with students and actively support faculty across diverse projects, sharpening my ability to streamline processes and address real-world challenges head-on.
-
-What sets me apart is my willingness to invest in software engineering efforts to build enhancements that directly lead to measurable results. In one example, I leveraged my expertise in software development and Rust to create a powerful CLI tool. This project started as a fun weekend experiment but soon translated into remarkable productivity gains. The tool effectively manages our repository and automates content delivery to GitHub Classrooms, saving valuable time and energy for both me and my team.
-
-In addition to my proficiency in JavaScript and Python, I have ventured into newer territories such as Power Apps and Power Automate. This journey outside my comfort zone has allowed me to develop creative solutions for real-world problems, showcasing my versatility and adaptability.
-
-I'm actively seeking a role where I can apply my problem-solving abilities, effective communication skills, and collaborative spirit to deliver exceptional results that align with the unique needs of clients and stakeholders. Let's connect and explore how we can join forces to drive meaningful progress in the ever-evolving landscape of computer science. Reach out, and together, let's embark on this exciting journey!
-
-Best regards,
-
-Jonathan Koerber
-
-- 🔭 I’m currently working on ...
-    A CLI tool to help manage github classroom assignments in Rust
-- 🌱 I’m currently learning ...
-  Rust... MS Power Platform because who has time to code everything
-- 👯 I’m looking to collaborate on ... open source projects
-  Innovative Technology for a Smarter Future
-- 🤔 I’m looking for help with ... navigating the job market
-- 💬 Ask me about ... baking great bread and pizza
-- 📫 How to reach me: jonathankoerber@gmail.com
-- ⚡ Fun fact: ... fascinated with history`
+At the heart of our club is a commitment to fostering creativity and individual exploration. We encourage all members to actively participate in shaping the direction of our endeavors. If you have a passion project or a data science topic that fascinates you, we want to hear about it! Our club is a platform for you to bring your ideas to life, so don't hesitate to share your project proposals and topics of interest. Whether it's a hands-on project, a discussion on the latest trends, or a deep dive into a specific area of data science, your contributions are valued and welcomed. Let's turn your passion into a collaborative initiative that benefits the entire community. Together, we can transform your ideas into impactful projects and discussions that elevate the STC Data Science Club experience for everyone. 
+`
 const ColumnWrapper = styled.div`
     display: flex;
     flex-direction: row;
@@ -50,7 +29,7 @@ const ColumnWrapper = styled.div`
 /* Medium desktops */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* CSS for medium desktops */
-  margin: 0 10% 0 20%;
+  margin: 0 5% 0 20%;
 }
 
 /* Large desktops and beyond */

@@ -41,10 +41,10 @@ const MainColumn = styled.div`
     width: 40%;
     padding: 16px;
 `;
-const Events = () => (
+const About = () => (
     <ColumnWrapper>
-        <>Events</>
         <MainColumn>
+            <>speakers</>
             <ReactMarkdown>
                 {}
             </ReactMarkdown>
@@ -52,5 +52,5 @@ const Events = () => (
     </ColumnWrapper>
 );
 
-export default Events;
+export default About;
 

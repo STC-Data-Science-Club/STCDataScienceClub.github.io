@@ -71,8 +71,10 @@ const NavAside = () => (
     <List>
         <ListItem><StyledLink to="/">home</StyledLink></ListItem>
         <ListItem><StyledLink to="/about">about</StyledLink></ListItem>
-        <ListItem><StyledLink to="/resume">resume</StyledLink></ListItem>
-        <ListItem><StyledLink to="/portfolio">projects</StyledLink></ListItem>
+        <ListItem><StyledLink to="/events">events</StyledLink></ListItem>
+        <ListItem><StyledLink to="/speakers">speakers</StyledLink></ListItem>
+        <ListItem><StyledLink to="/team">team</StyledLink></ListItem>
+        <ListItem><StyledLink to="/projects">projects</StyledLink></ListItem>
     </List>
    </ColumnWrapper>
 )

@@ -34,9 +34,6 @@ const Photo = (props) => {
         <Wrapper>
             <ImageSmall src={image} />
             <Text>
-                STC
-            </Text>
-            <Text>
                 Data Science Club
             </Text>
         </Wrapper>
