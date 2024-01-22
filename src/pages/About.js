@@ -7,6 +7,7 @@ import NavAside from "../components/NavAside";
 
 const aboutText = `### Hi there 👋
 Welcome to the STC Data Science Club!!
+_______
 
 The STC Data Science Club is more than just a club; it's a community of individuals passionate about exploring the vast landscape of data science. We look forward to meeting you, sharing knowledge, and creating memorable experiences together. Come join us as we outline our vision, discuss upcoming events, and most importantly, hear from you! We value your input and believe that every member plays a crucial role in shaping the future of our club. Bring your ideas, questions, and enthusiasm – let's make this a collaborative and engaging experience for everyone.
 
