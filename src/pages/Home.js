@@ -13,18 +13,20 @@ const Wrapper = styled.div`
     height: 100%;
 `;
 const StyledLink = styled(Link)`
- color:#33cccc;
- font-size: x-large;
- font-family: Arial, Helvetica, sans-serif;
- text-decoration: none;
- margin: 10px;
-&:hover,
-&:focus{
-    color: #9999ff;
-}
-&:active{
-    color: red;
-};
+    color: #33cccc;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 10px;
+
+    &:hover,
+    &:focus {
+        color: #9999ff;
+    }
+
+    &:active {
+        color: #043ac4;
+    }
 `;
 const Home = () => (
 

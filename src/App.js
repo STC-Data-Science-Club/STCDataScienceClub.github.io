@@ -16,7 +16,7 @@ function App() {
       <div style={{ marginTop: 40, marginBottom: 40 }}>
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<div><NavAside/><About/><rightColum/></div>} />
+            <Route path="/about" element={<div><NavAside/><About/></div>} />
             <Route path="/team" element={<div><NavAside/><Team/></div>}/>
             <Route path="/events" element={<div><NavAside/><Events/></div>}/>
             <Route path="/projects" element={<div><NavAside/><Projects/></div>}/>
