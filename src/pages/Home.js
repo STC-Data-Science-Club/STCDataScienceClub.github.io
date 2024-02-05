@@ -35,7 +35,7 @@ const Home = () => (
         <Photo size = 'full'/>
     <div className="links">
         <StyledLink to="/about">About</StyledLink>
-        <StyledLink to="/team">Team</StyledLink>
+        <StyledLink to="/events">Events</StyledLink>
         <StyledLink to="/speakers">Speakers</StyledLink>
         <StyledLink target="_blank" to="https://github.com/STCDataScienceClub">GitHub</StyledLink>
       </div>
