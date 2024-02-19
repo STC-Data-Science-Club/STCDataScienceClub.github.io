@@ -5,6 +5,7 @@ import styled from "styled-components";
 import MainColumn from "../components/MainColumn";
 import projects from "../data/project_data";
 import Card from "../components/Card";
+import project_images from "../images/project_images/projects_images"
 
 const Text = styled.p`
 font-size: x-large;
@@ -20,7 +21,7 @@ const Projects = () => (
                           subtitle={item.subtitle}
                           date={item.date}
                           description={item.description}
-                          imageUrl={item.image}
+                          image={project_images[item.imageKey]}
                     />
                 ))
             }

@@ -2,13 +2,12 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Link} from "react-router-dom";
-import headshots from "../images/speaker_headshots/headshots";
+import images from "../images/images";
 
 // Styled components for the card
 const CardWrapper = styled.div`
   width: 100%;
   border: 1px solid #ddd;
-    import images from "../images/speaker_headshots";
   overflow: hidden;
   margin: 16px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -55,10 +54,10 @@ const StyledLink = styled(Link)`
     }
 `;
 // Card component
-const Card = ({ title, subtitle,  date, description, imageKey, link}) => {
+const Card = ({ title, subtitle,  date, description, image, link}) => {
     return (
         <CardWrapper>
-            <CardImage  src={headshots[imageKey]} alt="Card" />
+            <CardImage src={image} alt="Card" />
             <CardContent>
                 <CardTitle>{title}</CardTitle>
                 <CardDescription>{date}</CardDescription>

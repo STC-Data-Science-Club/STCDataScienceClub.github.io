@@ -5,6 +5,7 @@ import styled from "styled-components";
 import MainColumn from "../components/MainColumn";
 import Card from "../components/Card";
 import events from "../data/event_data"
+import images from "../images/images"
 
 const Text = styled.p`
     font-size: x-large;
@@ -21,7 +22,7 @@ const Events = () => {
                           subtitle={item.subtitle}
                           date={item.date}
                           description={item.description}
-                          imageKey={item.imageKey}
+                          image={images[item.imageKey]}
                          />
                     ))
                 }
