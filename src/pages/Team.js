@@ -3,7 +3,7 @@
 import React from "react";
 import styled from "styled-components";
 import MainColumn from "../components/MainColumn";
-import team from "../data/speakers_data";
+import team from "../data/team_data";
 import Card from "../components/Card";
 
 const Text = styled.p`
