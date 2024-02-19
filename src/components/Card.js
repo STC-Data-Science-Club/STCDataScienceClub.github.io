@@ -2,12 +2,13 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Link} from "react-router-dom";
+import headshots from "../images/speaker_headshots/headshots";
 
 // Styled components for the card
 const CardWrapper = styled.div`
   width: 100%;
   border: 1px solid #ddd;
-  border-radius: 8px;
+    import images from "../images/speaker_headshots";
   overflow: hidden;
   margin: 16px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -18,6 +19,8 @@ const CardWrapper = styled.div`
 
 const CardImage = styled.img`
     display: block;
+    margin: 10px;
+    border-radius: 8px;
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -52,17 +55,16 @@ const StyledLink = styled(Link)`
     }
 `;
 // Card component
-const Card = ({ title, subtitle,  date, description, imageUrl, link}) => {
-    console.log("inside card", title, description, date, subtitle, imageUrl, link)
+const Card = ({ title, subtitle,  date, description, imageKey, link}) => {
     return (
         <CardWrapper>
-            <CardImage src={imageUrl} alt="Card" />
+            <CardImage  src={headshots[imageKey]} alt="Card" />
             <CardContent>
                 <CardTitle>{title}</CardTitle>
                 <CardDescription>{date}</CardDescription>
                 <CardDescription>{subtitle}</CardDescription>
                 <CardDescription>{description}</CardDescription>
-                <StyledLink target="_blank" to={link}>Link</StyledLink>
+                <StyledLink target="_blank" to={link}>LinkedIn</StyledLink>
             </CardContent>
         </CardWrapper>
     );

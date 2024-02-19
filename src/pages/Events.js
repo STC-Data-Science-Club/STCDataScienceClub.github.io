@@ -11,9 +11,6 @@ const Text = styled.p`
 `;
 const filePath = "/pages-markdown/marky-mark.md"
 const Events = () => {
-
-
-
     return (
     <MainColumn>
         <Text>Upcoming Events</Text>
@@ -24,7 +21,7 @@ const Events = () => {
                           subtitle={item.subtitle}
                           date={item.date}
                           description={item.description}
-                          imageUrl={item.image}
+                          imageKey={item.imageKey}
                          />
                     ))
                 }

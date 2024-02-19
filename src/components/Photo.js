@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import image from "../images/ws7Q0-removebg-preview.png";
 
-
 const Wrapper = styled.div`
     display: block;
     justify-content: center;
