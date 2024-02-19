@@ -54,7 +54,7 @@ const StyledLink = styled(Link)`
     }
 `;
 // Card component
-const Card = ({ title, subtitle,  date, description, image, link}) => {
+const Card = ({ title, subtitle,  date, description, image, linkText, link}) => {
     return (
         <CardWrapper>
             <CardImage src={image} alt="Card" />
@@ -63,7 +63,7 @@ const Card = ({ title, subtitle,  date, description, image, link}) => {
                 <CardDescription>{date}</CardDescription>
                 <CardDescription>{subtitle}</CardDescription>
                 <CardDescription>{description}</CardDescription>
-                <StyledLink target="_blank" to={link}>LinkedIn</StyledLink>
+                <StyledLink target="_blank" to={link}>{linkText}</StyledLink>
             </CardContent>
         </CardWrapper>
     );

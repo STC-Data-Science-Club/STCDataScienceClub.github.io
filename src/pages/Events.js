@@ -22,6 +22,8 @@ const Events = () => {
                           subtitle={item.subtitle}
                           date={item.date}
                           description={item.description}
+                      linkText={item.linkText}
+                      link={item.link}
                           image={images[item.imageKey]}
                          />
                     ))

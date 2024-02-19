@@ -21,6 +21,8 @@ const Projects = () => (
                           subtitle={item.subtitle}
                           date={item.date}
                           description={item.description}
+                          linkText={item.linkText}
+                          link = {item.link}
                           image={project_images[item.imageKey]}
                     />
                 ))
