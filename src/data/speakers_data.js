@@ -9,15 +9,6 @@ const speakers = [
         "link": "https://www.linkedin.com/in/paul-dooley-b3661450/"
     },
     {
-        "date": "2024-02-28",
-        "title": "STC Data Science Club Presents",
-        "subtitle": "Christy Heaton",
-        "description": "Christy Heaton is a geospatial developer who enjoys making maps with Python. In this session, she'll go over a spatial analysis workflow using Python, geopandas, and Jupyter Notebooks and create a web map showing the results.",
-        "imageKey": "christy",
-        "linkText": "LinkedIn",
-        "link": "https://www.linkedin.com/in/christyheaton/"
-    },
-    {
         "date": "2024-03-06",
         "title": "STC Data Science Club Presents",
         "subtitle": "Kamila Stepniowska",
